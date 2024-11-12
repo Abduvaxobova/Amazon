@@ -1,0 +1,935 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navme{
+    display: none;
+}
+.nav{
+    background-color: #131921;
+    display: flex;
+    padding: 20px 20px;
+}
+.nav p{
+    color: white;
+    margin-left: 1%;
+}
+.nav span{
+    margin-left: 20px;
+    color: rgb(224, 222, 222);
+}
+.inputn {
+    background-color: white;
+    display: flex;
+    width: 55%;
+    margin-left: 1%;
+    
+    
+}
+.inputn input{
+    border: 0px solid;
+    outline: none;
+    width: 100%;
+
+}
+.inputn select{
+    border: 0px solid;
+    border-right: 1px solid rgb(207, 204, 204);
+    padding: 10px 14px;
+    background-color: #f3f3f3;
+
+}
+.inputn img{
+padding: 9px;
+width: 30px;
+height: 30px;
+background-color: #febd69;
+
+}
+
+.usa{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+.usa select{
+    background-color: #131921;
+    border: 0px solid;
+    margin-left: 0px;
+    padding: 0px;
+    color: white;
+    margin-top: 10px;
+}
+.usa img{
+    margin-left: 10px;
+    width: 34px;
+    height: 24px;
+    margin-top: 10px;
+    
+}
+.sign {
+margin-left: 1%;
+}
+.sign select{
+    background-color: #13192100;
+    color: white;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 900;
+}
+.order{
+margin-left: 1.2%;
+}
+.order h1{
+    color: white;
+    font-weight: 900;
+}
+
+.logob{
+    display: flex;
+}
+.logob img{
+    width: 55px;
+}
+.logob h1{
+    color: white;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+}
+.nav2 img{
+    margin-right: 4px;
+    width: 24px;
+}
+.nav2p1{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav2inp{
+    margin-top: 4px;
+
+}
+
+.slider{
+    max-width: 1500px;
+    margin: 0px auto;
+}
+.slider img{
+    visibility: visible; 
+    width: 1480px;
+    background: -o-linear-gradient(blue red);
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+     
+
+}
+.menu{
+    background-color: #eaeded;
+    max-height: 1600px;
+}
+.bigimg{
+    position: relative;
+    bottom:350px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1500px;
+    margin: 0px auto;
+    
+}
+.boxi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.boxi img{
+    width: 140px;
+}
+.box1 img{
+    width: 290px;
+    padding-bottom: 20px;
+    
+}
+.box{
+max-width: 313px;
+background-color: white;
+margin: 10px;
+padding: 0px 0px 20px 20px;
+}
+.box h3{
+    padding: 20px 10px 10px 10px;
+}
+.grey img{
+    
+    margin: 10px;
+    width: 80px;
+}
+.boxa img{
+width: 290px;
+height: 240px;
+margin: 10px 30px;
+}
+.boxin{
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 301px;
+}
+.boxin a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffd814;
+    padding: 7px 100px;
+    border-radius: 30px;
+}
+.boxin h4{
+    font-size: 20px;
+}
+
+/* footer */
+
+.fbox1{
+text-align: center;
+border: 1px solid rgb(212, 210, 210);
+padding-bottom: 15px;
+margin-top: 20px;
+}
+.fbox1 h3{
+padding-bottom: 10px;
+margin-top: 40px;
+}
+.fbox1 p{
+    margin-top: 20px;
+}
+.fbox1 a{
+    margin-top: 100px;
+    padding: 10px 120px;
+    background-color: #ffcb46;
+    border-radius: 5px;
+    color: black;
+
+}
+.fbox1 span{
+    color: cornflowerblue;
+}
+.fbox2{
+    background-color: #37475A;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.fbox3{
+    background-color: #232f3e;
+    padding-bottom: 40px;
+    
+}
+.fbox3in h4{
+    color: white;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.fbox3in p{
+    color: rgb(219, 216, 216);
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.fbox3n{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+    margin:0px auto;
+}
+.fbox4{
+    background-color: #232f3e;    
+    border-top: 1px solid #3a4553;
+padding: 20px 100px 40px 100px;
+
+
+}
+.fbox4in{
+    margin: 0px auto;
+    max-width: 700px;
+    display: flex;
+
+}
+.fbox4 a{
+    color: white;
+    border: 2px solid #3a4553;
+    padding: 8px;
+    padding-right: 35px;
+    margin-right: 10px;
+}
+.fusa{
+    width: 80px;
+    margin-right: 80px;
+
+}
+span{
+    margin-left: 10px;
+}
+.fusa1 img{
+    width: 18px;
+    margin-right: 5px;
+   
+}
+.fbox5{
+    background-color: #131a22;
+}
+.footer{
+    color: rgb(221, 218, 218);
+    margin: 0px auto;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    font-family: sans-serif;
+}
+.fbox5 span{
+    margin-left: 50px;
+
+}
+
+@media screen  and (max-width: 800px){
+    .nav{
+        background-color: #131921;
+        display:none;
+        padding: 14px 14px;
+    }
+    .navme{
+        display: block;
+        background-color: #131921;
+        padding: 0px 0px;
+
+    }
+    .navme2{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 750px;
+    }
+    .navimg{
+        width: 80px;
+        height: 30px;
+        margin-top: 1.5%;
+        margin-left: 5%;
+    }
+    .navme p{
+        color: white;
+        margin-left: 0%;
+        font-size: 12px;
+        margin-top: 1.7%;
+        
+    }
+    .navme span{
+        margin-left: 20px;
+        color: rgb(224, 222, 222);
+        font-size: 12px;
+    }
+    .mesto{
+        width: 10px;
+    }
+    .inputn {
+        background-color: white;
+        display: flex;
+        width: 97%;
+        margin-left: 10px;
+        
+        
+    }
+    .inputn input{
+        border: 0px solid;
+        outline: none;
+        width: 100%;
+    
+    }
+    .inputn select{
+        border: 0px solid;
+        border-right: 1px solid rgb(207, 204, 204);
+        padding: 4px 5px;
+        background-color: #f3f3f3;
+    
+    }
+    .inputn img{
+        height: 15px;
+        width: 14px;
+    }
+    
+    
+    .usa{
+        display: flex;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+    .usa select{
+        background-color: #131921;
+        border: 0px solid;
+        margin-left: 0px;
+        padding: 0px;
+        color: white;
+        margin-top: 1px;
+    }
+    .usa img{
+        margin-left: 0px;
+        width: 30px;
+        height: 20px;
+        margin-top: 10px;
+        
+    }
+    .sign {
+    margin-left: 0%;
+    margin-top: 0.5%;
+    }
+    .sign p{
+        font-size: 13px;
+    }
+    .sign select{
+        background-color: #13192100;
+        color: white;
+        border: 0px solid;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .order{
+    margin-left: 0%;
+    margin-top: 0.9%;
+    }
+    .order h1{
+        color: white;
+        font-weight: 900;
+        font-size: 17px;
+    }
+    .order p{
+        font-size: 14px;
+    }
+    
+    .logob{
+        display: flex;
+        
+    }
+    .logob img{
+        width: 55px;
+    }
+    .logob h1{
+        color: white;
+        margin-top: 22px;
+        font-size: 20px;
+    }
+    
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    font-size: 11px;
+}
+.nav2 img{
+    margin-right: 4px;
+    width: 14px;
+}
+.nav2p1{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav2inp{
+    margin-top: 1.24px;
+
+}
+    
+    
+    
+    
+   
+
+/* main */
+.menu{
+    background-color: #eaeded;
+    max-height: 2800px;
+}
+.bigimg{
+    position: relative;
+    bottom:150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1500px;
+    margin: 0px auto;
+    margin-left: 5%;
+    
+}
+.boxi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    ;
+
+}
+.boxi img{
+    width: 140px;
+}
+.box1 img{
+    width: 290px;
+    padding-bottom: 20px;
+    
+}
+.box{
+max-width: 313px;
+background-color: white;
+margin: 10px;
+padding: 0px 0px 20px 20px;
+}
+.box h3{
+    padding: 20px 10px 10px 10px;
+}
+.grey img{
+    
+    margin: 10px;
+    width: 80px;
+}
+.boxa img{
+width: 290px;
+height: 240px;
+margin: 10px 30px;
+}
+.boxin{
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 301px;
+}
+.boxin a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffd814;
+    padding: 7px 100px;
+    border-radius: 30px;
+}
+.boxin h4{
+    font-size: 20px;
+}
+/* footer */
+.fbox{
+    margin-top: 0px;
+}
+.fusa img{
+width: 75px;
+height: 42px;
+
+}
+.fusa{
+    margin-top: 2px;
+
+}
+.fusa1 a{
+    font: 10px;
+}
+.fbox4in{
+    max-width: 1600px;
+}
+
+.fbox4{
+    background-color: #232f3e;    
+    border-top: 1px solid #3a4553;
+padding: 20px 100px 40px 100px;
+
+
+}
+.fbox4in{
+    max-width: 1300px;
+    display: flex;
+
+}
+.fbox4 a{
+    color: white;
+    border: 2px solid #3a4553;
+    padding: 8px;
+    padding-right: 35px;
+    margin-right: 10px;
+}
+.fusa{
+    width: 80px;
+    margin-right: 0px;
+
+}
+span{
+    margin-left: 10px;
+}
+.fusa1 img{
+    width: 18px;
+    margin-right: 5px;
+   
+}
+.fbox5{
+    background-color: #131a22;
+}
+.footer{
+    color: rgb(221, 218, 218);
+    margin: 0px ;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    max-width: 1600px;
+    font-family: sans-serif;
+}
+.fbox5 span{
+    margin-left: 20px;
+
+}
+
+
+}
+
+@media screen  and (max-width: 600px){
+    .inputn {
+        background-color: white;
+        display: flex;
+        width: 97%;
+        margin-left: 10px;
+        
+        
+    }
+
+
+    /* main */
+    .menu{
+        background-color: #eaeded;
+        max-height: 5200px;
+    }
+    .bigimg{
+        position: relative;
+        bottom:150px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 320px;
+        margin: 0px auto;
+        
+    }
+
+    /* /footer */
+
+   
+        .fusa{
+            width: 50px;
+            height: 24px;
+            margin-top: 2px;
+           margin-right: 20px;
+        
+        }
+        .fusa1 a{
+            font-size: 10px;
+        }
+        .fbox4in{
+            max-width: 1600px;
+        }
+        
+        .fbox4{
+            background-color: #232f3e;    
+            border-top: 1px solid #3a4553;
+        padding: 20px 50px 40px 50px;
+        
+        
+        }
+        .fbox4in{
+            max-width: 1300px;
+            display: flex;
+        
+        }
+        .fbox4 a{
+            color: white;
+            border: 2px solid #3a4553;
+            padding: 8px;
+            padding-right: 35px;
+            margin-right: 10px;
+        }
+    
+        span{
+            margin-left: 10px;
+        }
+        .fusa1 img{
+            width: 11px;
+            margin-right: 5px;
+           
+        }
+        .fbox5{
+            background-color: #131a22;
+        }
+        .footer{
+            color: rgb(221, 218, 218);
+            margin: 0px ;
+            margin-top: 80px;
+            padding-bottom: 50px;
+            max-width: 1600px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .fbox5 span{
+            margin-left: 20px;
+        
+        }
+
+}
+
+
+@media screen  and (max-width: 600px){
+   
+    .navme{
+        display: block;
+        background-color: #131921;
+        padding: 0px 0px;
+
+    }
+    .navme2{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 750px;
+    }
+    .navimg{
+        width: 50px;
+        height: 25px;
+        margin-top: 1.5%;
+    }
+    .navme p{
+        color: white;
+        margin-left: 0%;
+        font-size: 10px;
+        margin-top: 1.7%;
+        
+    }
+    .navme span{
+        margin-left: 20px;
+        color: rgb(224, 222, 222);
+        font-size: 10px;
+    }
+    .mesto{
+        width: 8px;
+    }
+    .inputn {
+        background-color: white;
+        display: flex;
+        width: 96%;
+        margin-left: 10px;
+        
+        
+    }
+    .inputn input{
+        border: 0px solid;
+        outline: none;
+        width: 100%;
+    
+    }
+    .inputn select{
+        border: 0px solid;
+        border-right: 1px solid rgb(207, 204, 204);
+        padding: 4px 5px;
+        background-color: #f3f3f3;
+    
+    }
+    .inputn img{
+        height: 15px;
+        width: 14px;
+    }
+    
+    
+    .usa{
+        display: flex;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+    .usa select{
+        background-color: #131921;
+        border: 0px solid;
+        margin-left: 0px;
+        padding: 0px;
+        color: white;
+        margin-top: 1px;
+    }
+    .usa img{
+        margin-left: 0px;
+        width: 24px;
+        height: 14px;
+        margin-top: 10px;
+        
+    }
+    .sign {
+    margin-left: 0%;
+    margin-top: 0.5%;
+    }
+    .sign p{
+        font-size: 9px;
+        margin-left: 4px;
+    }
+    .sign select{
+        background-color: #13192100;
+        color: white;
+        border: 0px solid;
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .order{
+    margin-left: 0%;
+    margin-top: 0.9%;
+    }
+    .order h1{
+        color: white;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .order p{
+        font-size: 10px;
+    }
+    
+    .logob{
+        display: flex;
+        
+    }
+    .logob img{
+        width: 45px;
+        height: 34px;
+    }
+    .logob h1{
+        color: white;
+        margin-top: 12px;
+        font-size: 20px;
+    }
+    
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    font-size: 9px;
+}
+.nav2 img{
+    margin-right: 4px;
+    width: 14px;
+}
+.nav2p1{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav2inp{
+    margin-top: 2.54px;
+
+}
+/* main */
+.bigimg{
+    bottom: 120px;
+}    
+
+
+/* footer */
+
+    .fbox2{
+        background-color: #37475A;
+        text-align: center;
+        color: white;
+        padding: 15px;
+    }
+    .fbox3{
+        background-color: #232f3e;
+        padding-bottom: 40px;
+        
+    }
+    .fbox3in h4{
+        color: white;
+        margin-top: 30px;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .fbox3in p{
+        color: rgb(219, 216, 216);
+        font-weight: normal;
+        font-size: 8px;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+    .fbox3n{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        max-width: 1200px;
+        margin:0px auto;
+    }
+    .fbox4{
+        background-color: #232f3e;    
+        border-top: 1px solid #3a4553;
+    padding: 20px 0px 40px 10px;
+    
+    
+    }
+   
+    .fbox4 a{
+        color: white;
+        border: 2px solid #3a4553;
+        padding: 8px;
+        padding-right: 5px;
+        margin-right: 10px;
+    }
+    
+    .fusa{
+        width: 50px;
+        height: 24px;
+        margin-top: 2px;
+       margin-right: 20px;
+    
+    }
+    .fusa1 a{
+        font-size: 10px;
+    }
+   
+    
+    .fbox4{
+        background-color: #232f3e;    
+        border-top: 1px solid #3a4553;
+    padding: 20px 50px 40px 50px;
+    
+    
+    }
+    
+    .fbox4 a{
+        color: white;
+        border: 2px solid #3a4553;
+        padding: 8px;
+        padding-right:15px;
+        margin-right: 10px;
+        font-size: 8px;
+    }
+
+    span{
+        margin-left: 10px;
+    }
+    .fusa1 img{
+        width: 11px;
+        margin-right: 5px;
+       
+    }
+    .fbox5{
+        background-color: #131a22;
+    }
+    .footer{
+        color: rgb(221, 218, 218);
+        margin: 0px ;
+        margin-top: 80px;
+        padding-bottom: 50px;
+        max-width: 1600px;
+        font-family: sans-serif;
+        font-size: 9px;
+    }
+    .fbox5 span{
+        margin-left: 20px;
+    
+    }
+
+
+    
+    
+
+
+}
